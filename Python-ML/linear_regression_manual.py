@@ -59,7 +59,7 @@ def main(args: argparse.Namespace) -> float:
     err = y_pred -t_test #error vector, or distance between prediction and target value
 
     
-    rmse = np.sqrt(np.mean((err)**2)) #Square the vector element-wise, and then I take the mean via np.mean() method,
+    rmse = np.sqrt(np.mean((err)**2)) #Square the vector element-wise, and then we take the mean via np.mean() method,
     #and then of course we have to take the square root
 
     return rmse
