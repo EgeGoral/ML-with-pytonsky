@@ -51,7 +51,7 @@ def main(args: argparse.Namespace) -> float:
     # TODO: Predict target values on the test set.
 
 
-    y_pred = X_test @ weights   #prediction of target values which is give by y(x)=x^T*w, where bias is hidden in w
+    y_pred = X_test @ weights   #prediction of target values which is given by y(x)=x^T*w, where bias is hidden in w
 
     
     # TODO: Manually compute root mean square error on the test set predictions.
